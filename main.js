@@ -15,7 +15,7 @@ const blue = document.querySelector('.blue');
 let shuffleOrder = () => {
     let colorOrder = Math.floor(Math.random() * 4);
     order[order.length] = colorOrder;
-    clicedOrder = [];
+    clickedOrder = [];
 
     for (let i in order) {
         let elementColor = createColorElement(order[i]);
